@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    /* background:rgb(209, 209, 209); */
+}
+.container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.h1{
+    color: brown;
+    margin: auto;
+    justify-content: center;
+   text-align: center;
+
+}
+.card{
+    background: white;
+    width: 280px;
+    height: 410px;
+    margin: 17px;
+    margin-top: 43px;
+    border-radius: 15px;
+}
+.card-img{
+    background-color: rgb(240, 132, 132);
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 13px 15px;
+}
+ .card-1{
+     background-image: url('../images/image-15.jpg');
+ }
+ .card-2{
+    background-image: url('../images/image-11.jpg');
+ }
+.card-3{
+    background-image: url('../images/donate-9.jpg');
+}
+.card .h2{
+    color: rgb(139, 29, 29);
+    text-align: center;
+
+}
+.p{
+    font-weight: bold;
+    text-align: center;
+}
+.card:hover{
+    background-color: rgb(185, 180, 180);
+    cursor: pointer;
+    transform: all is ease;
+}
+#btn{
+    display: block;
+    padding: 5px 25px;
+    color: white;
+    background-color: rgb(243, 146, 146);
+    border-radius: 10px;
+    margin: auto;
+    align-items: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+#btn:hover{
+    background-color: chocolate;
+}
+
+#a{
+    text-decoration: none;
+}

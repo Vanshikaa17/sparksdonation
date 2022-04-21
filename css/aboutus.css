@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.about{
+    background: url(../images/donate-7.jpg) no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 0px 0;
+}
+
+.innersection{
+    width: 55%;
+    float: right;
+    background-color: rgb(168, 75, 75);
+    padding: 140px;
+    box-shadow: 12px 12px 8px rgb(0, 0, 0,0.3);
+}
+
+.innersection h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 22px;
+    color: white;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 33px;
+}
+
+.skills button{
+    font-size: 23px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 200px;
+    background-color: #00999c;
+    color: white;
+    cursor: pointer;
+}
+
+.skills button:hover{
+    transition: 2s;
+    background-color: #ecf5f5;
+    color: #00999c;
+}
+
+
